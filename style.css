@@ -1,0 +1,165 @@
+header{
+    display: flex;
+    background-color: teal;
+    justify-content: space-around;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 54px;
+}
+.main_page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    overflow: hidden;
+}
+.section1{
+    height: 100vh;
+    width: 50%;
+    background-color: blueviolet;
+}
+.section2{
+    background-image: url("spmUM.gif");
+    padding: 100px;
+    height: 100vh;
+    width: 50%;
+    background-color: blue;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: gray ;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+
+}
+.subsec1{
+    height: 70vh;
+    padding-top: 20px;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+
+}
+.subsec2{
+    background-color: rgb(14, 13, 13);
+    height: 30vh;
+    padding: 70px;
+    display: flex;
+    gap: 400px;
+}
+nav {
+    margin: 10px 0 0 0;
+}
+.chat{
+    margin: 25px 0 0 0;
+}
+.ui{
+    background-color: blue;
+    padding: 25px 20px 0 20px;
+    border-radius: 30px;
+    font-size: 38px;
+    color: white;
+}
+.des{
+    text-align: center;
+margin-top:-40px;
+text-align: center;
+font-size: 20px;
+}
+.hire{
+    text-align: center;margin-top: 40px;
+}
+.chart{
+    border: 1px solid black;
+
+}
+.subscription-box {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 45vh;
+    margin-left: 240px;
+    
+}
+
+.newsletter-input {
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.newsletter-input::placeholder {
+    color: #aaa;
+}
+
+
+.submit-btn:hover {
+    background-color: #333;
+}
+.section2>p{
+    /* text-align: center; */
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 360px;}
+.project{
+    font-size: 30px;
+    color: white;
+
+}
+.statics{
+    text-align: right;
+}
+.statics p{
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    color: white;
+}
+.project button{
+    background-color: #ebf70d;
+    color: #080707;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.client{
+display: flex;
+gap: 300px;
+margin-left: 220px;
+margin-top: 80px;
+}
+.client1 h4{
+    font-size: 23px;
+}
+.client2 h4{
+    font-size: 23px;
+}
